@@ -1,0 +1,33 @@
+{
+  "name": "ko-dark",
+  "displayName": "ko~dark",
+  "description": "pink+blue theme ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+    "publisher" : "komal",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/gautamikomal/ko-dark"
+  },
+    "keywords": [
+     "dark theme",
+     "pink theme",
+    "komal",
+    "pink and blue theme"
+  ]
+
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ko~dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ko~dark-color-theme.json"
+      }
+    ]
+  }
+}
